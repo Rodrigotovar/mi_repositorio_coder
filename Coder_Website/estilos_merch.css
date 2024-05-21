@@ -1,0 +1,24 @@
+.merch
+{
+    display: list-item; 
+}
+
+header
+{
+    background-color: rgb(255, 227, 251);
+}
+
+footer
+{
+    
+    margin-left: 650;
+    
+    
+}
+
+.derechos
+{
+    margin-left: 30;
+    color: green;
+    font-size: 15px;
+}
