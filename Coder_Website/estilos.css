@@ -1,5 +1,10 @@
+@import url(_variables.scss);
+.titulo {
+  background-color: white;
+  border: grey 5px;
+}
 
-
+/*# sourceMappingURL=estilos.css.map */
 h1
 {
    color: rgb(0, 0, 0);
@@ -14,6 +19,7 @@ p
     font-family: initial;
     font-size: 19px;
 }
+
 
 
 .main2
@@ -75,7 +81,3 @@ footer
     position:absolute;
     
 }
-
-
-
-

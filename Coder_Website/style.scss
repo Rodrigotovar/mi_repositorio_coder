@@ -1,0 +1,14 @@
+@import url(_variables.scss);
+
+
+
+@mixin fotos($fondo: white, $colorBorde: black) 
+{
+    background-color: $fondo;
+    border: $colorBorde 5px;
+}
+
+.titulo
+{
+    @include fotos(white,grey)
+}
