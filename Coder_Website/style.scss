@@ -4,11 +4,95 @@
 
 @mixin fotos($fondo: white, $colorBorde: black) 
 {
-    background-color: $fondo;
+    background-color: white;
     border: $colorBorde 5px;
 }
 
-.titulo
+.videos
 {
-    @include fotos(white,grey)
+    @include fotos(rgb(137, 14, 14),grey)
+}
+
+h1
+{
+   color: rgb(0, 0, 0);
+   margin-left: 100;
+
+}
+
+p
+{
+    
+    margin-left: 600;
+    font-family: initial;
+    font-size: 19px;
+}
+
+
+
+.main2
+{
+    
+    padding-left: 700;
+    font-size: 15px;
+}
+.collapse
+{
+    align-content: center;
+}
+.formpagprincipal
+{
+    margin: 500px;
+}
+
+.albums
+{
+    padding-top: 20px;
+}
+.foto
+{
+    margin-left: 135;
+    display: inline;
+   
+    
+}
+
+.grid-layout
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    display: inline;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+
+
+.Section
+{
+    display: inline-flex;  
+    grid-template-columns:auto;
+    
+}
+.merch
+{
+    
+    padding-left: 700;
+    
+}
+
+.caja
+{
+    padding-left: 30px;
+    width: 500px;
+
+}
+
+
+footer
+{
+    
+    margin-left: 595;
+    position:absolute;
+    
 }
