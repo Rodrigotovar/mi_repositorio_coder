@@ -20,7 +20,11 @@ p
     font-size: 19px;
 }
 
-
+.caja
+{
+    width: 500px;
+    padding-left: 20px;
+}
 
 .main2
 {
