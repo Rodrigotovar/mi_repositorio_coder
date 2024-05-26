@@ -32,17 +32,6 @@ p {
   padding-top: 20px;
 }
 
-.boton
-{
-  padding-left: 650px;
-
-}
-
-.texto
-{
-  text-align: center;
-}
-
 .foto {
   margin-left: 135;
   display: inline;
@@ -54,6 +43,10 @@ p {
   display: inline;
   justify-content: space-evenly;
   padding-top: 20px;
+}
+
+.fotosprincipal {
+  padding-left: 380px;
 }
 
 .Section {
