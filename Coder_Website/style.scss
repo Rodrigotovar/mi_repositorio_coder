@@ -10,8 +10,12 @@
 
 .videos
 {
-    @include fotos(rgb(137, 14, 14),grey)
+    @include fotos(rgb(137, 14, 14),grey);
+    background-color: white;
+    border: 4px black;
+
 }
+
 
 h1
 {
@@ -64,6 +68,7 @@ p
     display: inline;
     justify-content: space-evenly;
     padding-top: 20px;
+    
 
 }
 
@@ -90,6 +95,11 @@ p
     padding-left: 30px;
     width: 500px;
 
+}
+
+.youtube
+{
+    margin-left: 535px;
 }
 
 

@@ -2,6 +2,8 @@
 .videos {
   background-color: white;
   border: grey 5px;
+  background-color: white;
+  border: 4px black;
 }
 
 h1 {
@@ -61,6 +63,10 @@ p {
 .caja {
   padding-left: 30px;
   width: 500px;
+}
+
+.youtube {
+  margin-left: 535px;
 }
 
 footer {
