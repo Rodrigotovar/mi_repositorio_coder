@@ -24,6 +24,12 @@ h1
 
 }
 
+.textoprincipal
+{
+
+    background-image: linear-gradient(to right, rgb(255, 176, 246), rgb(255, 28, 247));
+       
+}
 p
 {
     
@@ -102,6 +108,10 @@ p
     margin-left: 535px;
 }
 
+.boton
+{
+    transform: rotate(360deg);
+}
 
 footer
 {

@@ -11,6 +11,10 @@ h1 {
   margin-left: 100;
 }
 
+.textoprincipal {
+  background-image: linear-gradient(to right, rgb(255, 176, 246), rgb(255, 28, 247));
+}
+
 p {
   margin-left: 600;
   font-family: initial;
@@ -67,6 +71,10 @@ p {
 
 .youtube {
   margin-left: 535px;
+}
+
+.boton {
+  transform: rotate(360deg);
 }
 
 footer {
