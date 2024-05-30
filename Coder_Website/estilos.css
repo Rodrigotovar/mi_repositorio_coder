@@ -1,4 +1,6 @@
 @import url(_variables.scss);
+
+
 .videos {
   background-color: white;
   border: grey 5px;
