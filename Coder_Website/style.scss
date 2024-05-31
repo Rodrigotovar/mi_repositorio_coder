@@ -8,7 +8,20 @@
     border: $colorBorde 5px;
 }
 
+@media only screen and (max-width:480px) 
+{
+    .body
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 8fr 2fr;
 
+        grid-template-areas: 'titulos'
+                             'nav'
+                             'flex-container'
+                             'logoYT';
+    }
+    
+} 
 
 .body
 {
@@ -73,8 +86,6 @@ p
     display: inline;
     justify-content: space-evenly;
     padding-top: 20px;
-    
-
 }
 
 .fotosprincipal
@@ -102,10 +113,6 @@ p
     margin-left: 535px;
 }
 
-.boton
-{
-    transform: rotate(360deg);
-}
 
 footer
 {
