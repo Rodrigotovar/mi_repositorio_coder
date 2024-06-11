@@ -10,7 +10,7 @@
 
 @media only screen and (max-width:480px) 
 {
-    .body
+    .body and .fotoysonido
     {
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 1fr 8fr 2fr;
@@ -19,6 +19,7 @@
                              'nav'
                              'flex-container'
                              'logoYT';
+        padding-left: 0%;
     }
     
 } 
