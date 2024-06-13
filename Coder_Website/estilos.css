@@ -1,10 +1,27 @@
 @import url(_variables.scss);
-@media only screen and (max-width: 480px) {
-  .body and .fotoysonido {
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 8fr 2fr;
-    grid-template-areas: "titulos" "nav" "flex-container" "logoYT";
-    padding-left: 0%;
+@media (max-width: 480px) {
+  .fotoysonido {
+    margin-left: -10px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .blockquote {
+    text-align: center;
+    margin-left: -90px;
+    font-size: 1px;
+  }
+  .titulo {
+    font-size: 12px;
+  }
+  .flex-container {
+    margin-left: -10px;
+  }
+  .logoDoc {
+    margin-left: -430px;
+  }
+  .nav {
+    justify-content: center;
+    display: list-item;
   }
 }
 .body {
@@ -74,7 +91,6 @@ p {
 
 footer {
   margin-left: 595;
-  position: absolute;
 }
 
 /*# sourceMappingURL=estilos.css.map */
