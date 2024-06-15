@@ -1,5 +1,5 @@
 @import url(_variables.scss);
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 0px) and (max-width: 480px) {
   .fotoysonido {
     margin-left: 230px;
     text-align: center;
@@ -27,7 +27,7 @@
     width: 30px;
   }
   .YB {
-    margin-left: 500px;
+    margin-left: 100px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
